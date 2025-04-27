@@ -1,0 +1,49 @@
+﻿body {
+    direction: rtl;
+}
+
+body div {
+}
+
+body div .myDivs {
+    background-color: whitesmoke;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+body div #myDiv {
+    background-color: cadetblue;
+    transition: width ease 2s;
+}
+
+body div #myDiv:hover {
+    width: 100px;
+}
+
+body div #myDiv1 {
+    background-color: lightgoldenrodyellow;
+    transition: width ease-in 2s;
+}
+
+body div #myDiv1:hover {
+    width: 133px;
+}
+
+body div #myDiv2 {
+    background-color: burlywood;
+    transition: width ease-out 2s;
+}
+
+body div #myDiv2:hover {
+    width: 166px;
+}
+
+body div #myDiv3 {
+    background-color: darkgray;
+    transition: width linear 2s;
+}
+
+body div #myDiv3:hover {
+    width: 233px;
+}
