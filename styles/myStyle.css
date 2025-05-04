@@ -48,7 +48,7 @@ body div #myDiv3:hover {
     width: 233px;
 }
 
-body div #myDiv3 {
+body div #myDiv4 {
     background-color: lightgray;
     transition: width linear 2s;
 }
