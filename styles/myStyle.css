@@ -48,10 +48,15 @@ body div #myDiv3:hover {
     width: 233px;
 }
 
-body div #myDiv4{
+body div #myDiv3 {
+    background-color: lightgray;
+    transition: width linear 2s;
+}
+
+body div #myDiv5{
     font-family: "Open Sans", sans-serif;
     font-size: 40px;
     color: black;
-    background-color: darkgray;
+    background-color: yellowgreen;
 }
 
