@@ -51,6 +51,7 @@ body div #myDiv3:hover {
 body div #myDiv4{
     font-family: "Open Sans", sans-serif;
     font-size: 40px;
-    color: white;
+    color: black;
     background-color: darkgray;
 }
+
