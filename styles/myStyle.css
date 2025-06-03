@@ -7,3 +7,13 @@ body div nav ul {
     padding: 0;
     list-style: none;
 }
+
+body div nav ul li {
+}
+
+body div nav ul li a{
+    display: inline-block;
+    float: right;
+    font-family: ;
+    font-face:
+}
