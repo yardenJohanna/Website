@@ -9,20 +9,20 @@ body div nav ul {
 }
 
 body div nav ul li {
-    
+    display: inline-block;
+    width: 120px;
+    height: 40px;
 }
 
 body div nav ul li a{
-    display: inline-block;
     background:whitesmoke;
     color: darkgoldenrod;
-    width: 120px;
-    height: 30px;
-    padding-top: 10px;
+    width: 130px;
+    height: 40px;
+    padding-top: 20px;
     text-decoration: none;
     text-align: center;
     float: right;
-    font-family: "Yehuda CLM";
 }
 
 body div nav ul li a:link{
@@ -34,12 +34,17 @@ body div nav ul li a:hover{
 
 body div nav ul li ul{
     display:none;
+    padding-top: 50px;
+    width:130px;
     position: absolute;
+}
+body div nav ul li ul a {
+    padding-top: 10px;
+    height: 40px;
 }
 
 body div nav ul li:hover ul{
     display:block;
-    width:150px;
 }
 
 @font-face {
