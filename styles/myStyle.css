@@ -6,28 +6,37 @@ body div nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    text-align: center;
 }
 
 body div nav ul li {
     display: inline-block;
-    width: 120px;
+    width: 130px;
     height: 40px;
+}
+
+body div nav ul li:hover ul{
+    display:block;
 }
 
 body div nav ul li a{
     background:whitesmoke;
     color: darkgoldenrod;
-    width: 130px;
+    width: 140px;
     height: 40px;
     padding-top: 20px;
     text-decoration: none;
-    text-align: center;
     float: right;
+}
+
+body div nav ul li:hover > a{
+    color: goldenrod;
 }
 
 body div nav ul li a:link{
     
 }
+
 body div nav ul li a:hover{
     color: goldenrod;
 }
@@ -35,16 +44,27 @@ body div nav ul li a:hover{
 body div nav ul li ul{
     display:none;
     padding-top: 50px;
+    padding-left: 50px;
     width:130px;
     position: absolute;
 }
-body div nav ul li ul a {
-    padding-top: 10px;
-    height: 40px;
+body div nav ul li ul li a {
 }
 
-body div nav ul li:hover ul{
-    display:block;
+body div nav ul li ul .nav1Titles{
+
+}
+
+body div nav ul li ul .nav1Titles:hover{
+
+}
+
+body div nav ul li ul .nav2Titles{
+    cursor: default;
+}
+
+body div nav ul li ul .nav2Titles:hover{
+    color:darkgoldenrod;
 }
 
 @font-face {
