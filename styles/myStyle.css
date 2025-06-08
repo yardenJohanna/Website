@@ -10,6 +10,7 @@ body div nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    z-index: 1;
 }
 
 body div nav ul li {
@@ -89,4 +90,30 @@ body div nav ul li ul .nav2Titles:hover{
     src: url("fonts/yehudaclm-bold-webfont.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
+}
+
+body div main{
+    position: absolute;
+    width: 33%;
+    right: 33%;
+    top: 10%;
+}
+
+body div main h1{
+    text-align: center;
+
+}
+
+body div main h2{
+    text-align: center;
+
+}
+
+body div main h3{
+    text-align: right;
+}
+
+body div main p{
+    text-align: justify;
+    
 }
