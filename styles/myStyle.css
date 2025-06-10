@@ -1,5 +1,17 @@
-﻿body {
+﻿html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
     direction: rtl;
+}
+
+body #container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 body div nav {
@@ -10,7 +22,7 @@ body div nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    z-index: 1;
+    z-index: 10;
 }
 
 body div nav ul li {
@@ -44,6 +56,7 @@ body div nav > ul > li:hover > a{
     outline: 3px solid whitesmoke;
 }
 
+
 body div nav > ul > li > #activePageNav{
     font-weight: 600;
     border-radius: 4px;
@@ -63,16 +76,19 @@ body div nav ul li:hover ul{
 body div nav ul li ul li a {
     padding-top: 10px;
     outline: 3px solid whitesmoke;
-
 }
 
 body div nav ul li ul .nav1Titles{
-
+    transition: scale 0.1s ease-out;
 }
 
 body div nav ul li ul .nav1Titles:hover{
     color: goldenrod;
     outline: 3px solid whitesmoke;
+}
+
+body div nav ul li ul .nav1Titles:active{
+    scale: 91%
 }
 
 body div nav ul li ul .nav2Titles{
@@ -99,10 +115,12 @@ body div nav ul li ul .nav2Titles:hover{
 }
 
 body div main{
-    position: absolute;
+    flex: 1;
+    position: relative;
     width: 33%;
     right: 33%;
-    top: 10%;
+    padding-top: 4%;
+    padding-bottom: 2%;
 }
 
 body div main h1{
@@ -122,4 +140,19 @@ body div main h3{
 body div main p{
     text-align: justify;
     
+}
+
+body div footer{
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 1.5%;
+    padding-bottom: 0.75%;
+    position: relative;
+}
+
+body div footer a{
+    text-decoration: none;
+    color: dimgray;
+    display: block;
+    padding: 0.5%
 }
