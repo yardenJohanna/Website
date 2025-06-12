@@ -40,7 +40,7 @@ body div header nav > ul > li{
 }
 
 body div header nav ul li a{
-    background-color: lightgray;
+    background-color: whitesmoke;
     color: darkgoldenrod;
     width: 140px;
     height: 40px;
@@ -51,14 +51,14 @@ body div header nav ul li a{
 body div header nav > ul > li > a{
     font-weight: bold;
     padding-top: 20px;
-    outline: 3px solid lightgray;
+    outline: 3px solid whitesmoke;
 
 }
 
 body div header nav > ul > li:hover > a{
-    background-color: lightgray;
+    background-color: whitesmoke;
     color: goldenrod;
-    outline: 3px solid lightgray;
+    outline: 3px solid whitesmoke;
 }
 
 
@@ -80,7 +80,7 @@ body div header nav ul li:hover ul{
 }
 body div header nav ul li ul li a {
     padding-top: 10px;
-    outline: 3px solid lightgray;
+    outline: 3px solid whitesmoke;
 }
 
 body div header nav ul li ul .nav1Titles{
@@ -89,7 +89,7 @@ body div header nav ul li ul .nav1Titles{
 
 body div header nav ul li ul .nav1Titles:hover{
     color: goldenrod;
-    outline: 3px solid lightgray;
+    outline: 3px solid whitesmoke;
 }
 
 body div header nav ul li ul .nav1Titles:active{
@@ -102,7 +102,7 @@ body div header nav ul li ul .nav2Titles{
 
 body div header nav ul li ul .nav2Titles:hover{
     color:darkgoldenrod;
-    outline: 3px solid lightgray;
+    outline: 3px solid whitesmoke;
 }
 
 @font-face {
