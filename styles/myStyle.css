@@ -1,41 +1,39 @@
-﻿html,body{
-    height: 100%;
-    width: 100%;
-    margin: 0;
-}
-
-body {
+﻿body {
     direction: rtl;
 }
 
 body #container {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color:white;
 }
 
-body div nav {
+body div header{
+    
+}
+
+body div header nav {
     text-align: center;
 }
 
-body div nav ul {
+body div header nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
     z-index: 10;
 }
 
-body div nav ul li {
+body div header nav ul li {
     width: 140px;
     height: 40px;
     color: darkgoldenrod;
 }
 
-body div nav > ul > li{
+body div header nav > ul > li{
     display: inline-block;
 }
 
-body div nav ul li a{
+body div header nav ul li a{
     background-color: whitesmoke;
     color: darkgoldenrod;
     width: 140px;
@@ -44,58 +42,58 @@ body div nav ul li a{
     float: right;
 }
 
-body div nav > ul > li > a{
+body div header nav > ul > li > a{
     padding-top: 20px;
     outline: 3px solid whitesmoke;
 
 }
 
-body div nav > ul > li:hover > a{
+body div header nav > ul > li:hover > a{
     background-color: whitesmoke;
     color: goldenrod;
     outline: 3px solid whitesmoke;
 }
 
 
-body div nav > ul > li > #activePageNav{
+body div header nav > ul > li > #activePageheader nav{
     font-weight: 600;
     border-radius: 4px;
     border-bottom: 2px solid goldenrod;
 }
 
-body div nav ul li ul{
+body div header nav ul li ul{
     display:none;
     padding-top: 63px;
     width:140px;
     position: absolute;
 }
 
-body div nav ul li:hover ul{
+body div header nav ul li:hover ul{
     display:block;
 }
-body div nav ul li ul li a {
+body div header nav ul li ul li a {
     padding-top: 10px;
     outline: 3px solid whitesmoke;
 }
 
-body div nav ul li ul .nav1Titles{
+body div header nav ul li ul .nav1Titles{
     transition: scale 0.1s ease-out;
 }
 
-body div nav ul li ul .nav1Titles:hover{
+body div header nav ul li ul .nav1Titles:hover{
     color: goldenrod;
     outline: 3px solid whitesmoke;
 }
 
-body div nav ul li ul .nav1Titles:active{
+body div header nav ul li ul .nav1Titles:active{
     scale: 91%
 }
 
-body div nav ul li ul .nav2Titles{
+body div header nav ul li ul .nav2Titles{
     cursor: default;
 }
 
-body div nav ul li ul .nav2Titles:hover{
+body div header nav ul li ul .nav2Titles:hover{
     color:darkgoldenrod;
     outline: 3px solid whitesmoke;
 }
@@ -143,16 +141,50 @@ body div main p{
 }
 
 body div footer{
+    position: relative;
     background-color: lightgray;
     text-align: center;
-    padding-top: 1.5%;
-    padding-bottom: 0.75%;
-    position: relative;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: inline-block;
 }
 
-body div footer a{
+body div footer div{
+    position: relative;
+    display: inline-block;
+}
+
+body div footer #footerDiv1{
+    left: 11%;
+}
+
+body div footer #footerDiv2{
+    
+}
+
+body div footer #footerDiv3{
+    right: 11%;
+}
+
+body div footer div p{
+    position: relative;
+    text-decoration: overline;
+    color: dimgray;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+body div footer div a{
+    position: relative;
+    display: block;
     text-decoration: none;
     color: dimgray;
-    display: block;
-    padding: 0.5%
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+body div footer #footerAllRightsReserved{
+    position: absolute;
+    right: 2%;
+    top: 79%;
 }
