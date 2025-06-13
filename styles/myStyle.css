@@ -165,22 +165,34 @@ body div header nav ol li:last-child:after{
     content: "";
 }
 
-body div #mainImage{
-    margin-top: 10%;
+body div #oldCityImage{
+    margin-top: 50%;
     position: absolute;
-    right: 115%;
-    width: 80%;
-    border-radius: 20px;
-    transition: transform 0.3s ease;
+    right: 126%;
+    width: 50%;
+    border-radius: 30px;
+    transition: transform 0.5s ease;
 }
 
-body div #mainImage:hover {
-    transform: scale(1.03);
+body div #oldCityImage:hover {
+    transform: scale(1.05);
+}
+
+body div #israelMuseumImage{
+    margin-top: 10%;
+    position: absolute;
+    left: 125%;
+    width: 50%;
+    border-radius: 30px;
+    transition: transform 0.5s ease;
+}
+
+body div #israelMuseumImage:hover {
+    transform: scale(1.05);
 }
 
 body div main{
     padding-top: 10px;
-    flex: 1;
     position: relative;
     width: 33%;
     right: 33%;
@@ -216,6 +228,10 @@ body div main ul li:before{
 body div main p{
     text-align: justify;
     
+}
+
+body div main strong{
+    color: darkgoldenrod;
 }
 
 body div main aside #israelMuseumSite{
