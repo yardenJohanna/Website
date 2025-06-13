@@ -112,9 +112,9 @@ body div header nav ul li ul .nav1Titles{
     cursor: pointer;
 }
 
-body div header nav ul li ul .nav1Titles:hover{
+body div header nav ul li ul .nav1Titles:hover  {
     color: goldenrod;
-    outline: 4px solid whitesmoke;
+    outline: 5px solid whitesmoke;
 }
 
 body div header nav ul li ul .nav1Titles:active{
