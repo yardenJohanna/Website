@@ -32,6 +32,7 @@ body div header #mainLogo{
     display: flex;
     right: 2%;
     top: 40px;
+    color: black;
 }
 
 body div header nav {
@@ -75,21 +76,21 @@ body div header nav ul li a{
 body div header nav > ul > li > a{
     font-weight: bold;
     padding-top: 20px;
-    outline: 3px solid whitesmoke;
+    outline: 4px solid whitesmoke;
 
 }
 
 body div header nav > ul > li:hover > a{
     background-color: whitesmoke;
     color: goldenrod;
-    outline: 3px solid whitesmoke;
+    outline: 4px solid whitesmoke;
 }
 
 
 body div header nav > ul > li > #activePageHeader{
     font-weight: bold;
     border-radius: 4px;
-    border-bottom: 2px solid goldenrod;
+    border-bottom: 3px solid goldenrod;
 }
 
 body div header nav ul li ul{
@@ -104,7 +105,7 @@ body div header nav ul li:hover ul{
 }
 body div header nav ul li ul li a {
     padding-top: 10px;
-    outline: 3px solid whitesmoke;
+    outline: 4px solid whitesmoke;
 }
 
 body div header nav ul li ul .nav1Titles{
@@ -114,7 +115,7 @@ body div header nav ul li ul .nav1Titles{
 
 body div header nav ul li ul .nav1Titles:hover  {
     color: goldenrod;
-    outline: 5px solid whitesmoke;
+    outline: 6px solid whitesmoke;
 }
 
 body div header nav ul li ul .nav1Titles:active{
@@ -127,7 +128,7 @@ body div header nav ul li ul .nav2Titles{
 
 body div header nav ul li ul .nav2Titles:hover{
     color:darkgoldenrod;
-    outline: 3px solid whitesmoke;
+    outline: 4px solid whitesmoke;
 }
 
 body div header nav ol{
@@ -166,9 +167,9 @@ body div header nav ol li:last-child:after{
 }
 
 body div #oldCityImage{
-    margin-top: 50%;
+    margin-top: 10%;
     position: absolute;
-    right: 126%;
+    left: 125%;
     width: 50%;
     border-radius: 30px;
     transition: transform 0.5s ease;
@@ -179,7 +180,7 @@ body div #oldCityImage:hover {
 }
 
 body div #israelMuseumImage{
-    margin-top: 10%;
+    margin-top: 50%;
     position: absolute;
     left: 125%;
     width: 50%;
