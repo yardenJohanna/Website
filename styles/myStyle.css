@@ -218,6 +218,12 @@ body div main p{
     
 }
 
+body div main aside #israelMuseumSite{
+    position: relative;
+    right: 55%;
+    color: darkgoldenrod;
+}
+
 body div footer{
     position: relative;
     background-color: lightgray;
