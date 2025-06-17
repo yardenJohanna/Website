@@ -145,7 +145,7 @@ body div header nav ul li ul .nav1Titles:hover  {
 
 
 body div header nav ul li ul .nav1Titles:active{
-    scale: 94%
+    scale: 98%;
 }
 
 body div header nav ul li ul .nav2Titles{
@@ -259,8 +259,8 @@ body div main #sitemapTitle{
     font-size: 48px;
     text-decoration-color: black;
     text-decoration-line: underline;
-    text-decoration-thickness: 3%;
-    text-decoration-style: dotted;
+    text-decoration-thickness: 7%;
+    text-decoration-style: solid;
 }
 
 body div main div{
@@ -275,10 +275,6 @@ body div main div{
 
 body div main div p{
     display: block;
-    text-decoration-color: gray;
-    text-decoration-line: underline;
-    text-decoration-thickness: 6%;
-    text-decoration-style: dotted;
     font-weight: bold;
     font-size: 18px;
     color: black;
