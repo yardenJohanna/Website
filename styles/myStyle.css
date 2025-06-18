@@ -75,10 +75,11 @@ body div header nav ul li a{
     height: 40px;
     text-decoration: none;
     float: right;
-    font-size:16px;
+    font-size:18px;
 }
 
 body div header nav > ul > li > a{
+    font-size: 20px;
     font-weight: normal;
     padding-top: 20px;
     outline: 4px solid whitesmoke;
@@ -94,7 +95,7 @@ body div header nav > ul > li:hover > a{
 
 body div header nav > ul > li > #activePageHeader{
     font-weight: bold;
-    font-size:18px;
+    font-size:22px;
     border-bottom: 3px solid goldenrod;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
@@ -136,7 +137,7 @@ body div header nav ul li ul .nav1Titles{
 body div header nav ul li ul .nav1Titles:hover  {
     color: goldenrod;
     outline: 6px solid whitesmoke;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     border-bottom: 4px solid silver;
     border-bottom-left-radius: 5px;
@@ -256,7 +257,7 @@ body div main p{
 }
 
 body div main #sitemapTitle{
-    font-size: 48px;
+    font-size: 45px;
     text-decoration-color: black;
     text-decoration-line: underline;
     text-decoration-thickness: 7%;
@@ -265,27 +266,27 @@ body div main #sitemapTitle{
 
 body div main div{
     position: relative;
-    margin: 3.5% 2% 7% 2%;
+    margin: 3.7% 1.5% 7.4% 1.5%;
     text-align: justify;
     vertical-align: top;
     display: inline-block;
-    right: 21.2%;
-    max-width: 8.2%;
+    right: 21.3%;
+    width: 8.2%;
 }
 
-body div main div p{
+body div main div .smTitles{
+    height: 30px;
     display: block;
     font-weight: bold;
     font-size: 18px;
     color: black;
 }
 
-body div main div a{
+body div main div .sm1Titles, .sm2Titles{
     margin-top:18%;
     margin-bottom: 18%;
     text-decoration: none;
     display: block;
-    font-size: 16px;
     color: darkgoldenrod;
 }
 
@@ -335,6 +336,7 @@ body div footer #footerDiv3{
 }
 
 body div footer div p{
+    height: 20px;
     position: relative;
     text-decoration: underline;
     color: black;
