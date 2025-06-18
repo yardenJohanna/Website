@@ -330,6 +330,7 @@ body div main #contactUsForm{
     text-align: right;
     top: 50px;
     right: 23.5%;
+    width: 51.5%;
 }
 
 body div main #contactUsForm > label > span{
@@ -417,6 +418,39 @@ body div main #contactUsForm > label > #launch:hover{
 
 body div main #contactUsForm > label > #launch:active{
     scale:0.96;
+}
+
+body div main #aboutHitImage{
+    position: relative;
+}
+
+body div main #aboutContent{
+    border: 1px solid darkgoldenrod;
+    position: relative;
+    display: block;
+    width: 30%;
+    right: 22.2%;
+    
+}
+
+body div main #aboutContent > p{
+    font-weight: bold;
+}
+
+body div main #aboutContent > a{
+    display: block;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+body div main #aboutContent > .aboutSiteLinks{
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+
+body div main #aboutContent > .aboutSiteLinks:hover{
+    color: goldenrod;
+    font-weight: bold;
 }
 
 body div footer{
