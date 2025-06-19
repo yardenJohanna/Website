@@ -424,7 +424,7 @@ body div main #contactUsForm > label > #launch:active{
 }
 
 body div main #aboutHitImage{
-    position: relative;
+    display: inline-block;
 }
 
 body div main #aboutContent{
