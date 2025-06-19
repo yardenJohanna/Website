@@ -423,48 +423,83 @@ body div main #contactUsForm > label > #launch:active{
     scale:0.96;
 }
 
-body div main #aboutHitImage{
-    display: inline-block;
-}
-
 body div main #aboutContent{
     border: 1px solid darkgoldenrod;
     position: relative;
     display: block;
     width: 30%;
     right: 22.2%;
-    
+    margin-bottom: 0;
 }
 
-body div main #aboutContent h2{
+body div main #aboutContent article h2{
     text-align: right;
 }
 
-body div main #aboutContent h3{
-    position: relative;
-    display: block;
-    text-align: center;
+body div main #aboutContent article h3{
+    
 }
 
-body div main #aboutContent > p{
+body div main #aboutContent article strong{
+    color: dimgray;
+}
+
+body div main #aboutContent article p{
+    font-size: 18px;
     font-weight: bold;
 }
 
-body div main #aboutContent > a{
+body div main #aboutContent article a{
     display: block;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
 }
 
-body div main #aboutContent > .aboutSiteLinks{
+body div main #aboutContent article .aboutSiteLinks{
     color: darkgoldenrod;
     text-decoration: none;
     width: fit-content;
 }
 
-body div main #aboutContent > .aboutSiteLinks:hover{
+body div main #aboutContent article .aboutSiteLinks:hover{
     color: goldenrod;
     font-weight: bold;
+}
+
+body div aside #aboutHitLogoContainer{
+    position: relative;
+    text-align: center;
+    margin-top: 0;
+}
+
+body div aside #aboutHitLogoContainer a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+body div aside #aboutHitLogoContainer img {
+    display: block;
+}
+
+body div aside #aboutHitLogoContainer img:hover{
+    scale: 104%;
+}
+
+*{
+    
+}
+
+body div aside #aboutHitLogoContainer #instructionalTechnologiesFacultyLink {
+    color: maroon;
+    font-weight: bold;
+    font-size: 45px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+body div aside #aboutHitLogoContainer #instructionalTechnologiesFacultyLink:hover {
+    color: darkmagenta;
+    scale: 104%;
 }
 
 body div footer{
@@ -479,18 +514,18 @@ body div footer{
 body div footer div{
     position: relative;
     display: inline-block;
-    left: 0.5%
 }
 
 body div footer #footerDiv1{
-    left: 10.5%;
+    left: 10%;
 }
 
 body div footer #footerDiv2{
+    
 }
 
 body div footer #footerDiv3{
-    right: 10.5%;
+    right: 10%;
 }
 
 body div footer div p{
