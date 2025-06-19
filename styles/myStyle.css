@@ -281,6 +281,7 @@ body div main div .smTitles{
 }
 
 body div main div .sm1Titles, .sm2Titles{
+    width: fit-content;
     margin-top:18%;
     margin-bottom: 18%;
     text-decoration: none;
@@ -446,6 +447,7 @@ body div main #aboutContent > a{
 body div main #aboutContent > .aboutSiteLinks{
     color: darkgoldenrod;
     text-decoration: none;
+    width: fit-content;
 }
 
 body div main #aboutContent > .aboutSiteLinks:hover{
