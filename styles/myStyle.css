@@ -236,6 +236,8 @@ body div main h1{
 }
 
 body div main h2{
+    font-size: 30px;
+    font-weight: bold;
     color: gray;
     text-align: center;
 
@@ -432,6 +434,16 @@ body div main #aboutContent{
     width: 30%;
     right: 22.2%;
     
+}
+
+body div main #aboutContent h2{
+    text-align: right;
+}
+
+body div main #aboutContent h3{
+    position: relative;
+    display: block;
+    text-align: center;
 }
 
 body div main #aboutContent > p{
