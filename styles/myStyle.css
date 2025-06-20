@@ -18,7 +18,6 @@
 
 *:focus{
     outline: rebeccapurple 2px solid;
-    outline-offset: -2px;
 }
 
 body {
@@ -366,7 +365,6 @@ body div main #contactUsForm input{
 }
 
 body div main #contactUsForm input:focus{
-    outline-offset: -1px;
     color: black;
     border: 3px solid dimgray;
     outline: 1px solid dimgray;
