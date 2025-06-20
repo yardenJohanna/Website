@@ -42,8 +42,8 @@ body div header{
 
 body div header #navLogo{
     position: absolute;
-    right: 8%;
-    top: 24px;
+    top: 1%;
+    right: 9%;
     color: black;
     z-index: 15;
 }
@@ -435,7 +435,6 @@ body div main #contactUsForm > label > #launch:active{
 }
 
 body div #aboutMain div{
-    border: 1px solid darkgoldenrod;
     position: relative;
     display: block;
     width: 32%;
@@ -579,8 +578,8 @@ body div footer #footerAllRightsReserved{
 
 body div footer #footerLogo{
     position: absolute;
+    bottom: 22%;
     right: 8%;
-    top: 33%;
     color: black;
     z-index: 5;
 }
