@@ -16,8 +16,17 @@
     
 }
 
+*:focus{
+    outline: rebeccapurple 2px solid;
+    outline-offset: -2px;
+}
+
 body {
     direction: rtl;
+}
+
+body input:focus{
+
 }
 
 body #container {
@@ -261,17 +270,20 @@ body div main p{
 }
 
 body div main #sitemapTitle{
-
+    
 }
 
-body div main div{
+body div #sitemapMain {
     position: relative;
-    margin: 3.7% 1.5% 7.4% 1.5%;
+    text-align: center;
+}
+
+body div #sitemapMain div {
     text-align: justify;
+    margin: 3.7% 1.02% 7.4% 1.02%;
     vertical-align: top;
     display: inline-block;
-    right: 21.3%;
-    width: 8.2%;
+    width: 8.5%;
 }
 
 body div main div .smTitles{
@@ -354,7 +366,8 @@ body div main #contactUsForm input{
 }
 
 body div main #contactUsForm input:focus{
-    color: dimgray;
+    outline-offset: -1px;
+    color: black;
     border: 3px solid dimgray;
     outline: 1px solid dimgray;
 }
@@ -374,7 +387,7 @@ body div main #contactUsForm textarea{
 }
 
 body div main #contactUsForm textarea:focus{
-    color: dimgray;
+    color: black;
     border: 4px solid dimgray;
     outline: 1px solid dimgray;
 }
@@ -423,45 +436,52 @@ body div main #contactUsForm > label > #launch:active{
     scale:0.96;
 }
 
-body div main #aboutContent{
+body div #aboutMain div{
     border: 1px solid darkgoldenrod;
     position: relative;
     display: block;
-    width: 30%;
-    right: 22.2%;
+    width: 32%;
+    right: 23.6%;
     margin-bottom: 0;
 }
 
-body div main #aboutContent article h2{
+body div main div article h2{
     text-align: right;
 }
 
-body div main #aboutContent article h3{
-    
-}
-
-body div main #aboutContent article strong{
+body div main div article h3{
+    margin-bottom: 0;
+    text-align: center;
     color: dimgray;
 }
 
-body div main #aboutContent article p{
-    font-size: 18px;
+body div main div article strong{
+    color: dimgray;
+}
+
+body div main div article p{
+    font-size: 20px;
     font-weight: bold;
 }
 
-body div main #aboutContent article a{
+body div main div article a{
+    font-size: 18px;
     display: block;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
 }
 
-body div main #aboutContent article .aboutSiteLinks{
+body div main div article .aboutSiteLinks{
     color: darkgoldenrod;
     text-decoration: none;
     width: fit-content;
 }
 
-body div main #aboutContent article .aboutSiteLinks:hover{
+body div main div article .aboutSiteLinks:before {
+    content: "○ ";
+    color: gray;
+}
+body div main div article .aboutSiteLinks:hover{
     color: goldenrod;
     font-weight: bold;
 }
