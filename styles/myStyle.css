@@ -40,6 +40,16 @@ body div header{
     font-family: "YehudaCLM", sans-serif;
 }
 
+body div header #bsd{
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    color: black;
+    z-index: 10;
+    text-align: right;
+    font-size: 14px;
+}
+
 body div header #navLogo{
     position: absolute;
     top: 1%;
@@ -47,6 +57,7 @@ body div header #navLogo{
     color: black;
     z-index: 15;
 }
+
 
 body div header nav {
     position: relative;
@@ -442,43 +453,48 @@ body div #aboutMain div{
     margin-bottom: 0;
 }
 
-body div main div article h2{
-    text-align: right;
+body div #aboutTitle{
+        color: black;
 }
 
-body div main div article h3{
+body div #aboutMain div article h2{
+    text-align: right;
+    color: darkgoldenrod;
+}
+
+body div #aboutMain div article h3{
     margin-bottom: 0;
     text-align: center;
     color: dimgray;
 }
 
-body div main div article strong{
+body div #aboutMain div article strong{
     color: dimgray;
 }
 
-body div main div article p{
+body div #aboutMain div article p{
     font-size: 20px;
     font-weight: bold;
 }
 
-body div main div article a{
+body div #aboutMain div article a{
     font-size: 18px;
     display: block;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
 }
 
-body div main div article .aboutSiteLinks{
+body div #aboutMain div article .aboutSiteLinks{
     color: darkgoldenrod;
     text-decoration: none;
     width: fit-content;
 }
 
-body div main div article .aboutSiteLinks:before {
+body div #aboutMain div article .aboutSiteLinks:before {
     content: "○ ";
     color: gray;
 }
-body div main div article .aboutSiteLinks:hover{
+body div #aboutMain div article .aboutSiteLinks:hover{
     color: goldenrod;
     font-weight: bold;
 }
